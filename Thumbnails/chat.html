@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav ul li {
+            padding: 15px;
+            cursor: pointer;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: #555;
+            color: white;
+        }
+        .about, .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        .contact input, .contact textarea {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        .contact button {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Discover my work and projects</p>
+    </section>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a web developer passionate about building clean and responsive websites.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send</button>
+    </section>
+</body>
+</html>
